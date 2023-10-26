@@ -1,0 +1,168 @@
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: ;
+  color: black;
+  text-align: center;
+}
+
+
+.button {
+  font: bold 20px Garamond;
+  text-decoration: none;
+  background-color: ;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-top: 4px solid #333333;
+  border-right: 0px solid #333333;
+  border-bottom: 4px solid #333333;
+  border-left: 0px solid #333333;
+  text-align: center;
+}
+
+.button1 {
+  font: bold 20px Garamond;
+  text-decoration: none;
+  background-color: Grey;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-top: 4px solid #333333;
+  border-right: 0px solid #333333;
+  border-bottom: 4px solid #333333;
+  border-left: 4px solid #333333;
+  text-align: center;
+}
+
+.button2 {
+  font: bold 20px Garamond;
+  text-decoration: none;
+  background-color: Grey;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-top: 4px solid #333333;
+  border-right: 0px solid #333333;
+  border-bottom: 4px solid #333333;
+  border-left: 0px solid #333333;
+  text-align: center;
+}
+
+.button3 {
+  font: bold 20px Garamond;
+  text-decoration: none;
+  background-color: Grey;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-top: 4px solid #333333;
+  border-right: 4px solid #333333;
+  border-bottom: 4px solid #333333;
+  border-left: 0px solid #333333;
+  text-align: center;
+}
+
+
+body {
+	height: 1000vh;
+	Background: grey;
+}
+
+
+.container{
+	width: 100%;
+	height: 550px;
+	background-position: center;
+	background-size: cover;
+	background-image: url("Amazon.jpg");
+	background-attachment: fixed;
+
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid black;
+}
+
+h1 {
+  color: White;
+  text-align: center;
+  font-size: 50px;
+  font-family: Garamond;
+}
+
+h2 {
+  color: White;
+  text-align: center;
+  font-size: 50px;
+  font-family: Garamond;
+}
+
+h3 {
+  color: White;
+  text-align: left;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+
+p {
+  font-family: Garamond;
+  font-size: 25px;
+}
+
+p1 {
+  color: White;
+  font-size: 25px;
+  font-family: Garamond;
+  text-align: center;
+}
+
+p5 {
+  color: #d1cfcf;
+  font-size: 0px;
+}
+
+h4 {
+  color: White;
+  text-align: center;
+  font-size: 25px;
+  font-family: Garamond;
+}
+
+
+.underline {
+    border-bottom: 1px solid;
+    width: 0%;
+    float: inherit;
+     -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.underline:hover{
+    width: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+} 	
+
+a:link{
+color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+table, th, td {
+  border:2px solid black;
+  border-collapse: collapse;
+}
